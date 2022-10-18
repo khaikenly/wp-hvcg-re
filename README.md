@@ -8,8 +8,11 @@ https://scoop.sh/
 
 `scoop install mkcert`
 
-- Run 
-`cd wp-docker/nginx/certs`
+- Run
+
+`mkdir /nginx/certs/`
+
+`cd /nginx/certs/`
 
 `mkcert wordpress-docker.test`
 
