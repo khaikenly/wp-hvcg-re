@@ -47,6 +47,7 @@ services:
       - ./php/php.ini:/usr/local/etc/php/php.ini
     networks:
       - wordpress
+    command: chown -R wp:wp /var/www/html
 
   # wp:
   #   build:
